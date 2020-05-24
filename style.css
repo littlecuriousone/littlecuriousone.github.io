@@ -1,0 +1,93 @@
+
+@font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Space Mono Bold'), local('SpaceMono-Bold'), url(https://fonts.gstatic.com/s/spacemono/v5/i7dMIFZifjKcF5UAWdDRaPpZUFWaHi6WZ3Q.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/manrope/v1/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4aE9_C-b_Tfc7AGrY.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Nunito Regular'), local('Nunito-Regular'), url(https://fonts.gstatic.com/s/nunito/v12/XRXV3I6Li01BKofINeaBTMnFcQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+    text-align: center;
+}
+ul{
+    background-color:burlywood;
+    font-family:"Space Mono";
+    color:rgb(139, 69, 19);
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    width:auto;
+    padding:50px;
+    float: center;
+    line-height:5px;
+    list-style: none;
+    text-align:center;
+    
+}  
+
+h1{
+    color:burlywood;
+    font-family:"Nunito";
+    background-color:rgb(139, 69, 19);
+    text-align:center;
+    position:relative;
+    grid-gap: 30px;
+    padding:50px;
+    line-height:5px;
+    
+    
+}  
+
+
+h2 {
+    font-family:"Manrope";
+    color: rgb(139, 69, 19);;
+    background-color:burlywood;
+    height:50px;
+    text-align:center;
+
+}
+
+h3{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#f4eadc;
+    width:500px;
+    color:#c2893a;
+    display:inline-block;
+
+}
+
+.grid{
+    display:grid;
+    min-width:500px;
+    grid-column-gap:20px;
+    background-color:#e9d4b7;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-right: 20px;
+    grid-auto-flow:column;
+    grid-template-columns: repeat(3,auto);
+
+
+}
